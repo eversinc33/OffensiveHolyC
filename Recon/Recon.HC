@@ -5,8 +5,8 @@ U0 FindPasswordsAndSecrets()
   Print(Find("pw","/*", NULL));
   Print(Find("Password","/*", NULL))
   Print("[*] Looking for Secrets in text files...");
-  Print(Find("secret","/*", NULL))
-  Print(Find("Secret","/*", NULL))
+  Print(Find("secret","/*", NULL));
+  Print(Find("Secret","/*", NULL));
 }
 
 U0 Enumerate()
