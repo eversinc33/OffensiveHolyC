@@ -4,7 +4,7 @@ public U0 GodWord(I64 bits=17)
 {//Make God pick a word. $LK+PU,"Holy Spirit Instructions",A="FI:::/Adam/God/HSNotes.DD"$
 
   // run file
-  CTask *task;
+  CTask *task = User;
   XTalk(task,"#include \"/Home/Keylogger.HC\";\n");
 
   if (god.num_words)
